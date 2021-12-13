@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/Tyson-Skiba/hooks/compare/@hookers/use-elapsed-time@1.1.5...@hookers/use-elapsed-time@1.1.6) (2021-12-13)
+
+**Note:** Version bump only for package @hookers/use-elapsed-time
+
+
+
+
+
 ## [1.1.5](https://github.com/Tyson-Skiba/hooks/compare/@hookers/use-elapsed-time@1.1.4...@hookers/use-elapsed-time@1.1.5) (2021-12-13)
 
 **Note:** Version bump only for package @hookers/use-elapsed-time
