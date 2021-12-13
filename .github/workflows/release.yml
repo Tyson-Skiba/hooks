@@ -33,5 +33,5 @@ jobs:
         git config --global user.email github-actions-bot@users.noreply.github.com
 
         npx lerna run compile
-        npx lerna version --conventional-commits
+        npx lerna version --conventional-commits --yes
         npx lerna publish from-git --yes
