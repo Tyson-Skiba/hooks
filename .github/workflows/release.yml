@@ -1,7 +1,8 @@
 name: Release
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branches:
+      - main
 
 jobs:
   checks:
@@ -37,4 +38,3 @@ jobs:
         fi
 
         npx lerna publish from-git --yes
-        
