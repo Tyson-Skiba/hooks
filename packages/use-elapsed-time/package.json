@@ -1,0 +1,22 @@
+{
+  "name": "@hookers/use-elapsed-time",
+  "version": "1.0.0",
+  "main": "dist/es5/index.js",
+  "module": "dist/es6/index.js",
+  "sideEffects": false,
+  "repository": "https://github.com/Tyson-Skiba/hooks",
+  "author": "Tyson Skiba",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rimraf dist && tsc --project ../tsconfig.cjs.json --outDir ./dist/es5 && tsc --project ../tsconfig.esm.json --outDir ./dist/es6",
+    "release": "yarn compile && npx semantic-release"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "react": "^17.0.2",
+    "rimraf": "^3.0.2"
+  }
+}
