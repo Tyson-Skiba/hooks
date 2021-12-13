@@ -1,6 +1,6 @@
 {
   "name": "@hookers/use-wait-for-element",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
   "sideEffects": false,
