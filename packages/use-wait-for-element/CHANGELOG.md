@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/Tyson-Skiba/hooks/compare/@hookers/use-wait-for-element@1.1.2...@hookers/use-wait-for-element@1.1.3) (2021-12-13)
+
+**Note:** Version bump only for package @hookers/use-wait-for-element
+
+
+
+
+
 ## [1.1.2](https://github.com/Tyson-Skiba/hooks/compare/@hookers/use-wait-for-element@1.1.1...@hookers/use-wait-for-element@1.1.2) (2021-12-13)
 
 **Note:** Version bump only for package @hookers/use-wait-for-element
