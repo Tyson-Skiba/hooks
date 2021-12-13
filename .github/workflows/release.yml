@@ -19,14 +19,10 @@ jobs:
       with: 
         node-version: '14'
 
-    - name: Setup .npmrc file for publish
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - name: Setup Node
       uses: actions/setup-node@v2
       with:
-        node-version: '14.x'
-        registry-url: 'https://registry.npmjs.org'
+        node-version: '14'
 
     - name: Install dependencies
       run: |
