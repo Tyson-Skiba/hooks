@@ -39,5 +39,6 @@ jobs:
 
         npx lerna run compile
         npx lerna version --conventional-commits --yes
+        npm login
         npm whoami
         npx lerna publish from-git --yes
