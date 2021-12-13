@@ -1,14 +1,18 @@
 {
   "name": "@hookers/use-wait-for-element",
-  "version": "1.1.9",
+  "version": "1.0.2",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
   "sideEffects": false,
   "repository": "https://github.com/Tyson-Skiba/hooks",
   "author": "Tyson Skiba",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
-    "compile": "rimraf dist && tsc --project ../tsconfig.cjs.json --outDir ./dist/es5 && tsc --project ../tsconfig.esm.json --outDir ./dist/es6",
+    "compile": "rimraf dist && tsc --project ./tsconfig.cjs.json && tsc --project ./tsconfig.esm.json",
     "release": "yarn compile && npx semantic-release"
   },
   "peerDependencies": {
@@ -18,5 +22,6 @@
     "@types/react": "^17.0.37",
     "react": "^17.0.2",
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "47742fc7630120c04d220eb85360db998eb07185"
 }
