@@ -1,0 +1,30 @@
+{
+  "name": "@hookers/use-data-loader",
+  "version": "1.0.1",
+  "main": "dist/es5/index.js",
+  "module": "dist/es6/index.js",
+  "sideEffects": false,
+  "repository": "https://github.com/Tyson-Skiba/hooks",
+  "author": "Tyson Skiba",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "compile": "rimraf dist && tsc --project ./tsconfig.cjs.json && tsc --project ./tsconfig.esm.json",
+    "release": "yarn compile && npx semantic-release"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/object-hash": "^2.2.1",
+    "@types/react": "^17.0.37",
+    "react": "^17.0.2",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "object-hash": "^2.2.0"
+  }
+}
