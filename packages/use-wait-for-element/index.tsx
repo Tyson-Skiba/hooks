@@ -1,4 +1,4 @@
-import { useEffect, DependencyList } from 'react';
+import { useEffect, DependencyList } from '../use-observer/node_modules/@types/react';
 
 type Selector = Parameters<ParentNode['querySelector']>[0];
 

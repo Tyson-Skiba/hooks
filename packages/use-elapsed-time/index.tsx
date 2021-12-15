@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from '../use-observer/node_modules/@types/react';
 
 /**
  * Get time since mount
